@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logopag/logopag.ico">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pedidos - La Medialunera</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="./bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <!--[if lt IE 9]-->
+    <script scr="https:://oss.maxcdn.com/libs/html5shiv/3.4.1/html5shiv.js"></script>
+    <script scr="https:://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script scr="./bootstrap-3.4.1-dist\js\bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+    <header>
+        <div class="menubar">
+          <a href="#" class="bt-menu"><span class="icon-menu"></span><img src="img/Scan5.png" class="imagendecabeza"></a>
+        </div>
+        <nav>
+           <ul>
+              <li class="lidif" href=""><img src="./img/Scan5.png" class="imagendecabeza"></a></li>
+              <li class="lif" id="lif2"><a href="./index.php"><span class="icon-clipboard"></span>Realiza tu Pedido</a></li>
+              <li class="lif" id="lif1"><a href="./zonasdeentrega.html"><span class="icon-location2"></span>Zona de Entrega</a></li>
+              <li class="lif" id="lif1"><a href="./contactos.html"><span class="icon-phone"></span>Contacto</a></li>
+              <li class="lif" id="lifhome"><a href="./index.html"><span class="icon-home"></span>Inicio</a></li>
+           </ul>
+         </nav>
+      </header>
+
+      <script src="js/menu.js"></script>
+
+<div class="bodypedidos">
+    <br>
+    <!--PEDIDOS-->
+<div class="pedidos">
+    <br>
+    <p><b>Completando los datos para realizar tu pedido:</b></p>
+    <p>Recuerde que los envios se realizan todos los Domingos de 9:30 a 11:30hs<br>
+      Seleccione un día de entrega:</p>
+    <p>Tenes tiempo hasta el viernes para realizar tu pedido</p>
+        <br>
+        <form method="post">
+        
+        <input type="text" name="nombre" placeholder="nombre y apellido:" required>
+                <br>
+                <br>
+        </span><input type="number" name="telefono" placeholder="numero de telefono:" required>
+                    <br>
+                    <br>
+        <input type="text" name="domicilio" placeholder="domicilio y barrio:" required>
+                    <br>
+                    <br>
+            <input type="date" name="dia" required="" title="Establesca un día para su entrega" class="dia" required>
+                <br>
+                <br>
+        <input type="text" name="producto" placeholder="Producto Deseado:" required>
+                <br>
+                <br>
+    <label name="cantidad">Cantidad deseada: </label><select name="label">
+        <option>20</option>
+        <option>19</option>
+        <option>18</option>
+        <option>17</option>
+        <option>16</option>
+        <option>15</option>
+        <option>14</option>
+        <option>13</option>
+        <option>12</option>
+        <option>11</option>
+        <option>10</option>
+    </select>
+<br>
+<br>
+        <input type="submit" class="enviar">
+    <br><br>
+</form>
+</div>
+
+<div class="lineaseparadora">
+    <br>
+    <h4>PRODUCTOS:</h4>
+    <br>
+  </div>
+  
+  <!-- CARTA PRODUCTOS -->
+  <div class="container">
+    <div class="card">
+      <br><br>
+        <div class="card__content">
+          <h1 class="card__title"><b>50 MEDIALUNAS</b></h1><br>
+            <p>DULCES O SALADAS<br><br>
+               <b>$300</b>
+            </p><br><br>
+            <br><br>
+            <h7>Sabores S.A</h7>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <br><br>
+            <div class="card__content">
+              <h1 class="card__title"><b>----</b></h1><br>
+                <p>-----<br>
+                  <B>$--</B>
+                </p><br>
+                <br><br>
+                <h7>Sabores S.A</h7>
+              </div>
+            </div>
+          </div>
+          <br><br><br><br><br><br>
+</div>
+</body>
+</html>
