@@ -22,10 +22,10 @@
   <nav>
      <ul>
         <li class="lidif" href=""><img src="./img/Scan5.png" class="imagendecabeza"></a></li>
-        <li class="lif" id="lif2"><a href="./index.php"><span class="icon-clipboard"></span>Realiza tu Pedido</a></li>
-        <li class="lif" id="lif1"><a href="./zonasdeentrega.html"><span class="icon-location2"></span>Zona de Entrega</a></li>
-        <li class="lif" id="lif1"><a href="./contactos.html"><span class="icon-phone"></span>Contacto</a></li>
-        <li class="lif" id="lifhome"><a href="./index.html"><span class="icon-home"></span>Inicio</a></li>
+        <li class="lif" id="lif2"><a href="./pedidos.php"><span class="icon-clipboard"></span>Realiza tu Pedido</a></li>
+        <li class="lif" id="lif1"><a href="./zonasdeentrega.php"><span class="icon-location2"></span>Zona de Entrega</a></li>
+        <li class="lif" id="lif1"><a href="./contactos.php"><span class="icon-phone"></span>Contacto</a></li>
+        <li class="lif" id="lifhome"><a href="./index.php"><span class="icon-home"></span>Inicio</a></li>
      </ul>
    </nav>
 </header>
